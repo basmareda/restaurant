@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>restaurant</title>
+        <style>
+            h1{
+                text-align: center;
+                border:3px solid black;
+                background-color:rgb(160, 147, 147);
+                font-style: italic;
+                font-size: 70px;
+                background-image: url(image.jfif) ;
+                background-size:initial;
+                background-position: center;}
+            h{
+                font-size: 30px;
+                text-align: center;
+                font-style: oblique;
+                font-family: serif;
+                color:rgb(116, 100, 14);
+                border-style:ridge;
+                background-color:honeydew;
+                border-width: 30px;} 
+            body{background-image: url(uu.jfif)}
+            
+            #ll{
+                border-radius: 50%;
+               float: center;
+               width: 400px;
+               height:300px;
+            }
+            #jj{ border-radius: 50%;
+                width: 400px;
+            }
+
+            #cofe{
+                font-size: 40px;
+                font-style: italic;
+            }
+            #drinks{
+                font-size: 20px;
+                color:black;}
+                #ss{
+                width:10%;
+                }
+                #s{width:5%}
+                #pp{border-radius: 50%;
+                width: 400px;}
+                h2{  font-size: 40px;
+                font-style: italic;}
+                #rr{
+                    font-size: 40px;
+                    font-style: italic;
+                    color:rgb(9, 43, 43);
+                    border: 1px solid black; 
+                    border-radius: 12px;
+                    background-color:rosybrown;}
+                    #ww{
+                        font-size: 30px;
+                        font-style:oblique;
+                        color:indianred;
+                        border: 2px dotted black;
+                        border-radius: 12px;
+                        background-color:rgb(116, 100, 14)}
+                    #sss{
+                border-radius: 50%;
+               float: center;
+               width: 300px;
+               height:300px;
+            }    
+         .button {
+                width:100%;
+                height:50;
+                max-width:100px;
+                padding:10px 4px;
+                background:forestgreen;
+                color:green;
+                border:1px;
+                font-weight:bold;
+                border-radius:30px;
+               cursor:cell;
+                font-size:30px ;
+                outline:4px;}
+                .oo{      
+                     border-radius:30px  }
+                     .sale{
+                         font-size: 70px;;
+                         color:darkred;
+                         font-family: initial;
+                         border:1PX;
+                         
+                     }
+                     .order{
+                         font-size: 40px;
+                         color:darkgreen;
+                         background-color:cadetblue;
+                         border:1px solid black;
+                     }
+        </style>
+        <script>
+            function validateform(){
+                var x=document.forms["myform"]["quanti"].value;
+            }
+        </script>
+    </head>
+<body>
+        <h1>Drinks</h1>
+        <h> Hot Drinks</h><br> <br><br>
+
+        <img id=ll src="cd.jfif"><img  id=jj src="coffe.jfif"><img id=pp src="dd.jfif">
+        <pre>
+            <form name=myform action="https://www.w3school/action_page.php" onsubmit=returnvalidateform() method=post>
+        <p id=cofe><ins>coffee</ins></p>
+        <p id=drinks><input type="checkbox" name="drinks" >ESPRESSO 00      Quantity<input type=number size=2 name=qunti >     price<input type="text" value="10"size=2  readonly> </p>
+        <p id=drinks><input type="checkbox" name="drinks" > DOuBLE ESPRESO  Quantity<input  type="number" size="2">     price<input type="text" value="15" size=2 readonly> </p>
+        <p id=drinks><input type="checkbox" name="drinks" >MACCHATO         Quantity<input type="number" size=2 >     price<input  type="text" value="12" size=2 readonly> </p> 
+        <p id=drinks ><input type="checkbox" name="drinks" >BLACK COFFEE    Quantity<input  type="number"size=2 >      price<input type="text" value="20" size=2 readonly>                    <ins id=rr> ADDITIONALS</ins></P>          
+        <p id=drinks><input type="checkbox" name="drinks" >CAPPUCINO       Quantity<input  type="number" size=2>      price<input  type="text" value="13" size=2 readonly>               <ins id=ww>(Sauce:1 SR)(TOFFE:2 SR)(CREMA:2 SR)</ins> </p>       
+        <p id= drinks><input type="checkbox" name="drinks" >coffe TOFEE     Quantity<input  type="number"size=2 >      price<input type="text" value="15" size=2 readonly>  </p>                  
+        <p id=drinks><input type="checkbox" name="drinks" >coffe TURKISH    Quantity<input  type="number"size=2 >      price<input  type="text" value="15" size=2 readonly> </p>
+        <p id=drinks><input type="checkbox" name="drinks" >FRENCH COFFEE    Quantity<input  type="number"size=2 >      price<input type="text" value="11"size=2  readonly> </p>
+        <p id=drinks><input type="checkbox" name="drinks" >choclate HOT     Quantity<input  type="number" size=2>      price<input type="text" value="10" size=2 readonly> </p>
+        <p id=drinks><input type="checkbox" name="drinks" >SPANISH COFFEE   Quantity<input  type="number"size=2 >      price<input type="text" value="18"size=2  readonly> </p>
+       
+                                            <input class=order type=submit value="order"> 
+                                            
+
+       
+       
+        <h2><ins>Tea</ins></h2>
+<img id=ll src="tea.jfif"><img  id=sss src="tt.jfif"><img id=pp src="ttt.jfif">
+<p id=drinks><input type="checkbox" name="drinks" > TEA TALGIMA             Quantity<input  type="number"size=2 name=quanti>     price<input  type="text" value="10"size=2 readonly> </p>
+<p id=drinks><input type="checkbox" name="drinks" > TEA GREAN               Quantity<input type="number"size=2 >     price<input type="text" value="10"size=2  readonly>                  <ins id=rr> ADDITIONALS</ins>  </P>                
+<p id=drinks><input type="checkbox" name="drinks" > TEA ENGLISH             Quantity<input  type="number"size=2 >     price<input type="text" value="10"size=2  readonly>                   <ins id=ww>  (naenae-LEMON)</ins>                      </p>      
+<p id=drinks><input type="checkbox" name="drinks" > MILK WITH zanjibayl     Quantity<input type="number" size=2>      price<input type="text" value="10" size=2 readonly> </p>
+                                           
+
+
+
+                                            <input class=order type=submit value=order>
+
+
+
+
+
+
+ <h> COLD Drinks</h><br> <br><br>
+<img src="drinks.jfif" width=600 height=300><img src="ggg.jfif" width=600 height=300>
+<form name=myform action="https://www.w3school/action_page.php" onsubmit=returnvalidateform() method=post>
+<p id=drinks><input type="checkbox" name="drinks" > orange                 Quantity<input type="number" size=2 >                    price<input type="text" value="20" size=2 readonly> </p>
+<p id=drinks><input type="checkbox" name="drinks" > mango                  Quantity<input type="number" size=2>                    price<input type="text" value="22"size=2 readonly> </p>
+<p id=drinks><input type="checkbox" name="drinks" > lemon                  Quantity<input type="number" size=2>                    price<input type="text" value="14"size=2 readonly> </p>
+<p id=drinks><input type="checkbox" name="drinks" > Strawberries           Quantity<input type="number"size=2 >                    price<input type="text" value="18"size=2 readonly>            <img  class=oo src="sale.jpg" width=300 height=80> </p>     
+<p id=drinks><input type="checkbox" name="drinks" > watermelon             Quantity<input type="number" size=2>                    price<input type="text" value="15" size=2 readonly>         <ins class=sale> SALE 10%</ins></p>
+<p id=drinks><input type="checkbox" name="drinks" > Cantaloupe             Quantity<input type="number" size=2>                    price<input type="text" value="30"size=2 readonly> </p>
+<p id=drinks><input type="checkbox" name="drinks" > Soft drinks            Quantity<input type="number" size=2>                    price<input type="text" value="10"size=2 readonly> </p>
+<p id=drinks><input type="checkbox" name="drinks" > ICE CREAM              Quantity<input type="number" size=2>                    price<input  type="text" value="10"size=2 readonly> </p>
+                                         
+
+                                          <input class=order type=submit value=order>
+</form>
+
+</pre>
+</form>
+<pre>                     
+<button  class=button><a href="background (1).html" target=_blank>Back</a>                                                                                              
+   <button class=button  ><a href="restuuu.html" target=_blank>Next</a>                                                             
+                             
+
+   
+                                
+</pre>
+    </body>
+</html>
